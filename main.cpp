@@ -104,6 +104,7 @@ void board_display()
 		}
 		color_step--;
 	}
+	glFlush();
 }
 void idle(int value)
 {
